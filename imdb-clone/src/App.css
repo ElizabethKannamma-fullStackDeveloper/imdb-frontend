@@ -1,0 +1,390 @@
+/* Login Page Styles */
+.login-container {
+  background-color: #1a1a1a;
+  color: white;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 50px;
+}
+
+.login-heading {
+  font-size: 28px;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #fff;
+}
+
+/* Login Form */
+.login-form {
+  background-color: #333;
+  padding: 20px;
+  border-radius: 5px;
+  width: 400px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.login-form input {
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #444;
+  border-radius: 4px;
+  background-color: #222;
+  color: #fff;
+  width: 100%;
+}
+
+.login-form input:focus {
+  border-color: #4caf50;
+  outline: none;
+}
+
+.login-form button {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.login-form button:hover {
+  background-color: #45a049;
+}
+
+.login-form button:active {
+  background-color: #388e3c;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 500px) {
+  .login-form {
+    width: 90%;
+    padding: 15px;
+  }
+
+  .login-heading {
+    font-size: 24px;
+  }
+}
+
+/* Register Page Styles */
+.register-container {
+  background-color: #1a1a1a;
+  color: white;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 50px;
+}
+
+.register-heading {
+  font-size: 28px;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #fff;
+}
+
+/* Register Form */
+.register-form {
+  background-color: #333;
+  padding: 20px;
+  border-radius: 5px;
+  width: 400px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.register-form input {
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #444;
+  border-radius: 4px;
+  background-color: #222;
+  color: #fff;
+  width: 100%;
+}
+
+.register-form input:focus {
+  border-color: #4caf50;
+  outline: none;
+}
+
+.register-form button {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.register-form button:hover {
+  background-color: #45a049;
+}
+
+.register-form button:active {
+  background-color: #388e3c;
+}
+
+/* Link Button */
+.register-form .btn-success {
+  background-color: #008cba;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-top: 10px;
+}
+
+.register-form .btn-success:hover {
+  background-color: #0079a1;
+}
+
+.register-form .btn-success:active {
+  background-color: #005f7a;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 500px) {
+  .register-form {
+    width: 90%;
+    padding: 15px;
+  }
+
+  .register-heading {
+    font-size: 24px;
+  }
+}
+
+/* Navbar Styles */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #242424;
+  color: white;
+  padding: 1rem 2rem;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.nav-links li {
+  cursor: pointer;
+}
+
+/* Movie Card Styles */
+.movie-card {
+  background: #333;
+  color: white;
+  border-radius: 5px;
+  overflow: hidden;
+  margin: 10px;
+  width: 200px;
+  text-align: center;
+  transition: transform 0.3s;
+}
+
+.movie-card:hover {
+  transform: scale(1.05);
+}
+
+.movie-card img {
+  width: 100%;
+  height: auto;
+}
+
+/* Movie List Styles */
+.movie-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 20px;
+}
+
+/* Landing Page Styles */
+.landing-page {
+  background-color: #1a1a1a;
+  color: white;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.header {
+  text-align: center;
+  margin: 20px 0;
+}
+
+/* General styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+
+/* Heading */
+.heading {
+  font-size: 24px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* Form */
+form {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  margin: auto;
+  width: 400px;
+  padding: 20px;
+}
+
+/* Input fields */
+.movie-input,
+.movie-select {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  width: 100%;
+}
+
+/* Select element */
+.movie-select {
+  appearance: none;
+  background-color: white;
+  cursor: pointer;
+}
+
+/* Checkbox input */
+.actors input[type="checkbox"] {
+  margin-right: 5px;
+}
+
+/* Actor list */
+.actors {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+}
+
+.actors div {
+  margin-right: 10px;
+}
+
+/* Submit button */
+.submit-button {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+/* Edit Movie Page Styles */
+.edit-movie-container {
+  background-color: #1a1a1a;
+  color: white;
+  min-height: 100vh;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.edit-movie-container h2 {
+  font-size: 28px;
+  color: #fff;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* Form Container */
+.edit-movie-form {
+  background-color: #333;
+  padding: 20px;
+  border-radius: 5px;
+  width: 400px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Input Fields */
+.movie-input,
+.movie-select {
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #444;
+  border-radius: 4px;
+  background-color: #222;
+  color: #fff;
+  width: 100%;
+}
+
+.movie-input:focus,
+.movie-select:focus {
+  border-color: #4caf50;
+  outline: none;
+}
+
+/* Checkbox List */
+.actors-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 15px;
+}
+
+.actors-list div {
+  margin-right: 10px;
+  margin-bottom: 5px;
+}
+
+/* Checkbox Styling */
+.actors-list input[type="checkbox"] {
+  accent-color: #4CAF50;
+  margin-right: 5px;
+}
+
+/* Submit Button */
+.submit-button {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.submit-button:hover {
+  background-color: #45a049;
+}
+
+.submit-button:active {
+  background-color: #388e3c;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 500px) {
+  .edit-movie-form {
+    width: 90%;
+    padding: 15px;
+  }
+
+  .edit-movie-container h2 {
+    font-size: 24px;
+  }
+}
